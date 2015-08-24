@@ -8,7 +8,7 @@ menu:
 subnav:
   github: "#"
   weibo: "#"
-  rss: "#"
+  rss: "atom.xml"
   zhihu: "#"
   #douban: "#"
   #mail: "#"

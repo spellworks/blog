@@ -7,8 +7,8 @@ title: 魔咒工坊
 subtitle:
 description:
 author: 魔咒工坊
-language:
-timezone:
+language: zh-cn
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -69,3 +69,13 @@ theme: yilia
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+  
+  
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  
+sitemap:
+    path: sitemap.xml
+
