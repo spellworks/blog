@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 魔咒工坊
+title: spellworks-魔法工坊
 subtitle:
 description:
-author: 魔咒工坊
+author: 魔法工坊
 language: zh-cn
 timezone: Asia/Shanghai
 
@@ -69,13 +69,12 @@ theme: yilia
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
-  
-  
+
+
 feed:
   type: atom
   path: atom.xml
   limit: 20
-  
+
 sitemap:
     path: sitemap.xml
-
