@@ -36,7 +36,7 @@ define([], function(){
 		$friends = document.getElementById("js-friends");
 		var tagStr = $tag?'<span class="viewer-title">标签</span><div class="viewer-div tagcloud" id="js-mobile-tagcloud"></div>':"";
 		var friendsStr = $friends?'<span class="viewer-title">友情链接</span><div class="viewer-div friends" id="js-mobile-friends"></div>':"";
-		var aboutmeStr = $aboutme?'<span class="viewer-title">关于我</span><div class="viewer-div aboutme" id="js-mobile-aboutme"></div>':"";
+		var aboutmeStr = $aboutme?'<span class="viewer-title">关于我们</span><div class="viewer-div aboutme" id="js-mobile-aboutme"></div>':"";
 
 		$viewer.innerHTML = '<div id="viewer-box">\
 		<div class="viewer-box-l">\
@@ -76,7 +76,7 @@ define([], function(){
 	//第四步 -- 绑定 DOM 事件
 	var bindDOM = function(){
 		var scaleW = scaleW;
-		
+
 		//滑动隐藏
 		document.getElementById("viewer-box").addEventListener("webkitTransitionEnd", function(){
 
@@ -85,7 +85,7 @@ define([], function(){
 				_isShow = true;
 			}else{
 			}
-			
+
 		}, false);
 
 		//点击展示和隐藏
