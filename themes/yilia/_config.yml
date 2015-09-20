@@ -22,7 +22,7 @@ rss: /atom.xml
 # Content
 excerpt_link: more
 fancybox: true
-mathjax: true
+mathjax: false
 
 # 是否开启动画效果
 animate: true
@@ -60,4 +60,4 @@ friends: false
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+aboutme: 重构巴别塔，为相信所有语言本身即是力量的同学提供交流、练习的工厂

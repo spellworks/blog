@@ -1,2 +1,2 @@
 # blog.spellworks
-魔咒工坊的blog
+魔法工坊的博客，暂时兼作主页
