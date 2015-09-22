@@ -32,10 +32,10 @@ open_in_new: false
 
 # Miscellaneous
 google_analytics: ''
-favicon: images/favicon.png
+favicon: /images/favicon.png
 
 #你的头像url
-avatar: images/logo.jpg
+avatar: /images/logo.jpg
 #是否开启分享
 share: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
