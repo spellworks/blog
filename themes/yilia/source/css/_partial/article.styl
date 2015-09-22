@@ -99,17 +99,27 @@
   margin-left: 0px;
   font-weight: 300;
   line-height: 35px;
-  margin-bottom: 20px;
   font-size: 26px;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s;
+  display: inline-block;
   &:hover{
     color: #B0A0AA;
   }
 }
-
+h1.article-title {
+  margin-bottom: 20px;
+}
+.article-author {
+  font-size: 0.5em;
+  color: #ADADAD;
+  padding-left: 10px;
+}
+h1[itemprop=name] {
+  display: inline;
+}
 .article-inner{
   position: relative;
   margin-bottom: 20px;
@@ -179,7 +189,7 @@
   }
   ul,ol{
     font-size: 14px;
-    margin: 10px 0px;  
+    margin: 10px 0px;
   }
   li{
     ul,ol{
