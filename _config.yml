@@ -4,15 +4,15 @@
 
 # Site
 title: spellworks-魔法工坊
-subtitle:
-description:
+subtitle: 见证语言的力量
+description: 有一群计算机爱好者建立，梦想重构巴别塔，为相信所有语言本身即是力量的同学提供交流、练习的场所
 author: 魔法工坊
 language: zh-cn
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.spellworks.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
