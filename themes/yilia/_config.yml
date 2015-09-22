@@ -32,6 +32,7 @@ open_in_new: false
 
 # Miscellaneous
 google_analytics: ''
+baidu_analytics: 880dfd60e56223165095dee765443778
 favicon: /images/favicon.png
 
 #你的头像url
