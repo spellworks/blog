@@ -32,6 +32,7 @@ open_in_new: false
 
 # Miscellaneous
 google_analytics: ''
+baidu_analytics: 880dfd60e56223165095dee765443778
 favicon: /images/favicon.png
 
 #你的头像url
@@ -60,4 +61,4 @@ friends: false
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 由一群大学生计算机爱好者们建立，梦想重构巴别塔，为所有追求语言本身力量的初学者们提供交流、练习的工厂
+aboutme: 由一群大学生计算机爱好者们建立，梦想重构巴别塔，使所有追求语言本身力量的初学者们能在此方便的交流、练习
