@@ -3,9 +3,7 @@ date: 2015-09-23 01:14:52
 author: Lulus
 tags:
 - Lulus
-- 依赖注入
 - 控制反转
-- 依赖查找
 - 面向对象编程
 ---
 
@@ -30,7 +28,7 @@ public class HighSpeedTire : Tire //高速轮胎
     }
 }
 ```
-        
+
 ```csharp
 public class HighGripTire : Tire //高抓地力轮胎
 {
@@ -47,7 +45,7 @@ public class HighGripTire : Tire //高抓地力轮胎
 ```csharp
 public class Car
 {
-    public void Drive() 
+    public void Drive()
     {
         Tire tire = ???
         tire.Spin();
@@ -65,7 +63,7 @@ public class Car
     {
         this.tire = tire;
     }
-    public void Drive() 
+    public void Drive()
     {
         tire.Spin();
     }
@@ -105,7 +103,7 @@ public class Model
 ```csharp
 public class ViewModel : INotifyPropertyChanged //这个继承接口表示这个ViewModel能够为属性值变更做出响应
 {
-    
+
     public event PropertyChangedEventHandler PropertyChanged;
     public void RaisePropertyChanged(string propertyName)
     {
